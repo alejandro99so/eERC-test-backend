@@ -1,0 +1,23 @@
+{
+  "network": "fuji",
+  "deployer": "0x38332d73dC01548fC6710Acbbe8116516111781A",
+  "deploymentTimestamp": "2025-07-11T02:20:38.522Z",
+  "contracts": {
+    "registrationVerifier": "0xc0936bBC5bB1e068B5891e2902B45C37016dC91f",
+    "mintVerifier": "0xB397f69fAd38F7219d529324A37E92b17F7cE5C7",
+    "withdrawVerifier": "0x59f875B7F2F443cf3b8ACA7358317a504Dc3F910",
+    "transferVerifier": "0x8675c42e1EB09141a594E96868b773c27078eB60",
+    "burnVerifier": "0x4d34565A52097efcdF3e41F12B268bD3064051E2",
+    "babyJubJub": "0xD4917c9664876645bC11B0421f34c6e5Da31110B",
+    "registrar": "0x4a8517BD3153aeb16C60E15454bFf809dDC1d5F2",
+    "encryptedERC": "0x8BaDb024922709F1F5EfF03f8e180b77af957FDF",
+    "testERC20": "0x01f09a81a83A84A734dCF2511C140eB7abc2DCD9"
+  },
+  "metadata": {
+    "isConverter": true,
+    "decimals": 2,
+    "testTokensMinted": "10000",
+    "erc20Name": "Test",
+    "erc20Symbol": "TEST"
+  }
+}

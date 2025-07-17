@@ -251,7 +251,18 @@ cp circom/registration_js/registration.wasm zk/
 ### 4. Deploy Contracts
 ```bash
 # Deploy the complete system
-npx hardhat run scripts/deploy-standalone.ts --network localhost
+npm run deploy:converter
+
+# Note the deployed contract addresses from output
+# Example: EncryptedERC deployed to: 0x...
+```
+
+### 4. Initialize Contracts
+```bash
+# Register auditor
+npm run register:user
+# Add auditor address to SC
+npm run init:contract
 
 # Note the deployed contract addresses from output
 # Example: EncryptedERC deployed to: 0x...
@@ -326,7 +337,7 @@ go list -m github.com/consensys/gnark
 
 # Regenerate circuit files with matching version
 # Update go.mod if needed
-go mod edit -require github.com/consensys/gnark@v0.8.0
+go mod edit -require github.com/consensys/gnark@v0.11.0
 go mod tidy
 make build
 ```

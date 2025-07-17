@@ -39,7 +39,7 @@ const main = async () => {
     const isRegistered = await registrar.isUserRegistered(await deployer.getAddress());
     
     if (!isRegistered) {
-        console.log("❌ El deployer no está registrado");
+        console.log("❌ El auditor no está registrado");
         console.log("💡 Para registrar un usuario, necesitas generar un proof de zero-knowledge");
         console.log("💡 Esto requiere usar las herramientas de zk (zkit) del proyecto");
         console.log("💡 Por ahora, puedes usar un usuario ya registrado como auditor");

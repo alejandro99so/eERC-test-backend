@@ -1,17 +1,17 @@
 {
   "network": "fuji",
   "deployer": "0x38332d73dC01548fC6710Acbbe8116516111781A",
-  "deploymentTimestamp": "2025-07-11T03:35:26.394Z",
+  "deploymentTimestamp": "2025-07-16T23:32:26.514Z",
   "contracts": {
-    "registrationVerifier": "0xEA378C1231e2074fe9Dee6B161DdB7b0E68b1cc8",
-    "mintVerifier": "0x28aeB9274901E02638f1aaB54e2A643E36C0352D",
-    "withdrawVerifier": "0xfbefa1eAe6CAB3361cd0761CA907Fe0072e5Ea00",
-    "transferVerifier": "0xB00044AAD86C6dF5f6b9A8B6e3Cd9d9D943f60C5",
-    "burnVerifier": "0xb4b338647090402a9F9a225bf10C6097De0c9365",
-    "babyJubJub": "0x6554dAdbC86635C334FCfa0737902Fb884A16e77",
-    "registrar": "0xdBee0158917158a30a10956b8F32c5843F3Cb191",
-    "encryptedERC": "0xdDBC787dbD08b08Cb70167AD9a317d1d231227Cb",
-    "testERC20": "0xe6F00Fe38b9eBCC9669E5106FE97CdAA6c055C11"
+    "registrationVerifier": "0xf25E36b4BFe33028335FCc2769953BA9c14FFa29",
+    "mintVerifier": "0x16878ae65A46990BB05f346648CF10c3f51939a5",
+    "withdrawVerifier": "0x04158CB53305EC38D8374b90050DDcD996ef788D",
+    "transferVerifier": "0x13D33d077489886e73654118faC7c200B235059B",
+    "burnVerifier": "0x92a8e7744aaCf62d3afE5004e50ABb713870079E",
+    "babyJubJub": "0x450776EF3c7F74Ff110f958896E00FFC0C6E9AAa",
+    "registrar": "0x6A71A04E93af629d1e5C4129d7117BD64d868020",
+    "encryptedERC": "0x771897596942b5E5fFFb639d5Fd3Bf17401f3Bdc",
+    "testERC20": "0x9e1A5b01FFEB8F4fd09778F5203ACE4dff75602C"
   },
   "metadata": {
     "isConverter": true,

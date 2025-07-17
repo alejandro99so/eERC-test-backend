@@ -8,10 +8,10 @@ const deploymentPath = path.join(__dirname, "../deployments/latest-fuji.json");
 const deploymentData = JSON.parse(fs.readFileSync(deploymentPath, "utf8"));
 
 const eERCAddress = deploymentData.contracts.encryptedERC;
-const auditorPublicKeyAddress = "0x38332d73dC01548fC6710Acbbe8116516111781A" as any;
+//const auditorPublicKeyAddress = "0x38332d73dC01548fC6710Acbbe8116516111781A" as any;
 const main = async () => {
     const [deployer] = await ethers.getSigners();
-
+    const auditorPublicKeyAddress = await deployer.getAddress()
     const encryptedERC = await EncryptedERC__factory.connect(eERCAddress, deployer);
     let auditor: any;
     try {
